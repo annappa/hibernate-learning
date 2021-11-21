@@ -1,0 +1,29 @@
+####### Hibernate Features ######
+1. Auto DDL
+2. HQL
+3. Cache Support
+4. Primary Key Generator
+5. Validations
+6. Exception free. All are runtime exceptions
+7. ORM support ... Object Stuctures
+8. OGM - Object Graph Mapping
+9. Search
+10. Annotations Support
+11. Inbuilt connection pool support
+
+
+######### Required Steps ######
+1. POJO class
+2. Mapping file  -- ex:., student.hbm.xml
+3. Configuration file  --- Default name is : hibernate.cfg.xml
+    DTD
+    <hibernate-configuration>
+        DB Driver properties
+        DB connection pool properties
+        Hibernate commands
+        Attach mapping files
+    </hibernate-configuration>
+4. Test classes
+
+######## HQL - Hebernate Query Language #####
+Search for .createQuery(
